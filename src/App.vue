@@ -11,8 +11,8 @@
 @import '../public/assets/vendor/bootstrap-icons/bootstrap-icons.css';
 @import '../node_modules/nprogress/nprogress.css';
 
-@import 'https://fonts.gstatic.com" rel="preconnect';
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"';
+/* @import 'https://fonts.gstatic.com" rel="preconnect';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"'; */
 
 </style>
 <template>

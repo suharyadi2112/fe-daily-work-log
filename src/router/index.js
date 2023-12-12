@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import TestingView from '../views/TestingView.vue'
 import LoginView from '../views/LoginView.vue'
 import WorkLogView from '../views/WorkLogView.vue'
+import CategoryView from '../views//category/CategoryView.vue'
 import NProgress from 'nprogress';
 
 const routes = [
@@ -10,6 +11,9 @@ const routes = [
   { path: '/testing', name: 'testing', components: { default: TestingView }, meta: { requiresAuth: true } },
   { path: '/login', name: 'login', components: { default: LoginView }, meta: { layout: 'login' } },
   { path: '/worklog', name: 'worklog', components: { default: WorkLogView }, meta: { requiresAuth: true } },
+
+  //category
+  { path: '/category', name: 'category', components: { default: CategoryView }, meta: { requiresAuth: true } },
 ]
 
 

@@ -26,6 +26,20 @@
     </li>
 
     <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-setup" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-database-gear"></i><span>Setup</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-setup" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+                <router-link to="/category" class="nav-link collapsed">
+                    <i class="bi bi-circle"></i><span>Category</span>
+                </router-link>
+            </li>
+        </ul>
+        
+    </li>
+
+    <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
         <i class="bi bi-menu-button-wide"></i><span>Components Dll</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>

@@ -115,11 +115,13 @@ export default {
                 // Redirect or perform any other actions upon successful login
             } catch (error) {
 
-                if (error.response.status == 400) {
-                    this.ToastttError(error.response.data.error)
-                }else{
-                    // Handle login error
-                    this.ToastttError(error)
+                if (error.response && error.response.status) {
+                    if (error.response.status == 400) {
+                        this.ToastttError(error.response.data.error)
+                    }else{
+                        // Handle login error
+                        this.ToastttError(error)
+                    }
                 }
                 console.error('Login error', error);
             }
